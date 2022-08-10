@@ -1,0 +1,7 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,800;1,100;1,500&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
