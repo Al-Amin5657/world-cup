@@ -5,3 +5,172 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+
+
+.greatest-shows {
+    display: flex;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: black;
+    line-height: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+
+
+
+
+}
+
+.greatest-show {
+    color: white;
+    margin-left: 105px;
+    margin-right: 75px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    border-left: 105px;
+
+
+}
+
+.images {
+
+    width: 800px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding-right: 70px;
+
+}
+
+.title {
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: cornflowerblue;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.watch a {
+    text-decoration: none;
+    background-color: red;
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.blog-image {
+    width: 312px;
+    height: 175px;
+}
+
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+.blog {
+    margin-left: 75px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-top: 75px;
+    margin-right: 2px;
+    width: 312px;
+    height: 400px;
+
+
+}
+
+.style {
+    border: 1px solid black;
+    margin-left: 3px;
+    padding-left: 22px;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+}
+
+.disply {
+    margin-left: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 143px;
+    height: 26px;
+    margin-left: 20px;
+
+
+
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 27px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.foot-back {
+    background-color: #161616;
+    margin-top: 130px;
+    padding: 30px;
+
+}
+
+.goal {
+    text-align: center;
+    color: white
+}
+
+.foot-font {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 30px;
+}
+
+/* Mobile Device */
+@media only screen and (max-width: 688px) {
+    .container {
+        width: 100%;
+    }
+
+    .greatest-shows,
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .greatest-shows,
+    .foot-font {
+        flex-direction: column;
+    }
+}
+
+/* Tablet Device */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+
+    .greatest-shows {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
